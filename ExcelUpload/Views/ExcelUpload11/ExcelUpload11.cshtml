@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "ExcelUpload";
+}
+
+<h2>ExcelUpload</h2>
+<from action="/ExcelUpload/ExcelUpload" method="post" enctype="multipart/form-data" data_ajax="false">
+    <label>File Upload</label>
+    <input type="file" name="importFile" />
+
+    <button type="submit" id="btnsubmit" class="btn btn-primary mts">Submit</button>
+</from>
